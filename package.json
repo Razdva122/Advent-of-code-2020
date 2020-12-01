@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "solve of tasks from advent of code 2020",
+  "main": "index.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Razdva122/Advent-of-code-2020.git"
+  },
+  "author": "RazDva122",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Razdva122/Advent-of-code-2020/issues"
+  },
+  "homepage": "https://github.com/Razdva122/Advent-of-code-2020#readme",
+  "dependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
+}
