@@ -1,4 +1,4 @@
-import input from './input';
+import input from '../input';
 
 function main(): number {
   const year = 2020;

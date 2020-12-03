@@ -1,4 +1,4 @@
-import input from './input';
+import input from '../input';
 
 const inputFormated = input.split('\n').map((el) => {
   const [amount, letterInput, pass] = el.split(' ');
