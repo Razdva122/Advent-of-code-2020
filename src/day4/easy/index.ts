@@ -16,9 +16,7 @@ function main(): number {
   const requiredKeys = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid'];
  
   const countOfValidPassports = formatedInput.reduce((count, passport) => {
-    const passportHaveAllKeys = requiredKeys.reduce((valid, el) => {
-      return Boolean(valid && passport[el]);
-    }, true);
+    const passportHaveAllKeys = requiredKeys.every((el) => passport[el]);
 
     if (passportHaveAllKeys) {
       count += 1;
