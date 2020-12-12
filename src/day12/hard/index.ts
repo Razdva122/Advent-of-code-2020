@@ -57,8 +57,8 @@ export function main(): number {
 
     if (valueIsForward(command)) {
       const amount = command[1];
-      state.pos[0] = state.pos[0] + state.wayPoint[0] * Number(amount);
-      state.pos[1] = state.pos[1] + state.wayPoint[1] * Number(amount);
+      state.pos[0] = state.pos[0] + state.wayPoint[0] * amount;
+      state.pos[1] = state.pos[1] + state.wayPoint[1] * amount;
     }
 
     if (valueIsTurn(command)) {
